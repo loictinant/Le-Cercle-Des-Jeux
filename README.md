@@ -1,6 +1,14 @@
 # Le Cercle des jeux
 
-Jeu de réflexion solo pour Windows et Android : sudoku, mots croisés, mots fléchés, mots mêlés et mémory, avec de nouveaux niveaux générés au fil des parties.
+Jeu de réflexion solo : sudoku, mots croisés, mots fléchés, mots mêlés et mémory, avec des niveaux générés sans fin.
+
+![Capture d’écran du menu de la version d’essai Windows](LeCercleDesJeux-menu-essai.png)
+
+## Version d’essai Windows
+
+Télécharger l’[EXE Windows x64](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.0.0-essai).
+
+Cette édition comprend 52 trophées locaux. La progression et les trophées restent sur l’appareil. Les succès Windows Store et les trophées Android seront intégrés séparément aux applications officielles.
 
 ## Code source
 
@@ -8,12 +16,8 @@ L’archive **LeCercleDesJeux-GitHubSource.zip** contient le jeu, les deux propo
 
 Après extraction, les fichiers du jeu se trouvent dans le dossier LeCercleDesJeux. Les scripts de compilation sont dans LeCercleDesJeux/Plateformes/.
 
-## Trophées
-
-La collection de l’EXE d’essai est locale à l’appareil. Les succès Windows Store et les trophées Android seront intégrés séparément à leurs applications officielles ; ils ne sont pas activés dans l’EXE d’essai.
-
 ## Confidentialité
 
-Le jeu fonctionne en solo hors ligne. Les parties et trophées locaux restent sur l’appareil.
+Le jeu fonctionne en solo hors ligne. Les parties et trophées locaux restent sur l’appareil. Aucun compte ni serveur de jeu n’est requis.
 
-Présentation : https://tinant-loic-applications.thinmorningglory.chatgpt.site/apps/le-cercle-des-jeux/
+Site de présentation : https://loic-apps.duckdns.org/
