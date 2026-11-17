@@ -2,7 +2,7 @@
 
 Jeu de réflexion solo : sudoku, mots croisés, mots fléchés, mots mêlés et mémory, avec des niveaux générés sans fin.
 
-![Capture d’écran du menu de la version d’essai Windows](LeCercleDesJeux-menu-essai.png)
+![Partie de Sudoku dans la version d’essai Windows, sans barre des tâches ni pointeur](LeCercleDesJeux-sudoku-sans-barres.png)
 
 ## Version d’essai Windows
 
