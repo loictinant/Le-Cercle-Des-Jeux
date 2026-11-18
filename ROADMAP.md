@@ -5,7 +5,6 @@ Cette liste rassemble les demandes pour les versions futures. Ces fonctions ne s
 ## Interface
 
 - Afficher le numéro de version en bas de l’application.
-- Ajouter la mention « Développé par TINANT LOIC ».
 - Rendre le choix du thème clair ou foncé facile à trouver dans les réglages.
 - Actualiser immédiatement le nom affiché en haut à droite après la suppression du joueur.
 - Colorer les trophées selon leur niveau : bronze, argent et or.
