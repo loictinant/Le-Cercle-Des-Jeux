@@ -1,23 +1,25 @@
-# Le Cercle des jeux
+# Le Cercle des jeux — version 1.1.0
 
-Jeu de réflexion solo : sudoku, mots croisés, mots fléchés, mots mêlés et mémory, avec des niveaux générés sans fin.
+Jeu de réflexion en français : sudoku, mots croisés, mots fléchés, mots mêlés et mémory.
 
-![Partie de Sudoku dans la version d’essai Windows, sans barre des tâches ni pointeur](LeCercleDesJeux-sudoku-sans-barres.png)
+![Menu du jeu — capture sans curseur ni barre des tâches](LeCercleDesJeux-menu-defis-france-v1.1.0.png)
 
-## Version d’essai Windows
+## Téléchargement Windows
 
-Télécharger l’[EXE Windows x64](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.0.0-essai).
+[ Télécharger l’EXE d’essai Windows x64 ](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.1.0-essai)
 
-Cette édition comprend 52 trophées locaux. La progression et les trophées restent sur l’appareil. Les succès Windows Store et les trophées Android seront intégrés séparément aux applications officielles.
+L’essai conserve les 52 trophées internes sur cet appareil. Les succès Xbox/Windows ne sont pas activés dans cette version.
 
-## Code source
+## Défis France
 
-L’archive **LeCercleDesJeux-GitHubSource.zip** contient le jeu, les deux propositions visuelles, ainsi que les projets de compilation Windows et Android. Elle ne contient aucun EXE, APK, paquet MSIX ou clé de signature.
+Le jeu propose un défi quotidien identique pour chaque jeu, puis un classement asynchrone par pseudo. Participer au classement est facultatif : les défis restent jouables sans pseudo. Un pseudo anonyme n’est créé qu’après acceptation de la politique de confidentialité.
 
-Après extraction, les fichiers du jeu se trouvent dans le dossier LeCercleDesJeux. Les scripts de compilation sont dans LeCercleDesJeux/Plateformes/.
+L’API PHP/MySQL est incluse dans les sources mais reste à installer et configurer sur l’hébergement. Le mode solo continue de fonctionner hors ligne.
 
-## Confidentialité
+## Code source et confidentialité
 
-Le jeu fonctionne en solo hors ligne. Les parties et trophées locaux restent sur l’appareil. Aucun compte ni serveur de jeu n’est requis.
+[ Télécharger les sources Windows, Android, le jeu navigateur et le serveur PHP/MySQL ](LeCercleDesJeux-GitHubSource-v1.1.0.zip)
 
-Site de présentation : https://loic-apps.duckdns.org/
+Les clés de signature et les identifiants de base ne sont pas dans le dépôt. La politique de confidentialité est incluse dans le jeu et dans l’archive du site.
+
+Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/index.html)
