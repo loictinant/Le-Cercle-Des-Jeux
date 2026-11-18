@@ -18,7 +18,7 @@ L’API PHP/MySQL est incluse dans les sources mais reste à installer et config
 
 ## Code source et confidentialité
 
-[ Télécharger les sources Windows, Android, le jeu navigateur et le serveur PHP/MySQL ](LeCercleDesJeux-GitHubSource-v1.1.0.zip)
+[ Télécharger les sources Windows, Android, le jeu navigateur et le serveur PHP/MySQL ](LeCercleDesJeux-GitHubSource-v1.1.0-rev2.zip)
 
 Les clés de signature et les identifiants de base ne sont pas dans le dépôt. La politique de confidentialité est incluse dans le jeu et dans l’archive du site.
 
