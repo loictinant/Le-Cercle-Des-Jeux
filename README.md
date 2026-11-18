@@ -23,3 +23,5 @@ Le pseudo public est choisi par le joueur, doit être unique, et peut être modi
 Le jeu solo continue de fonctionner hors ligne. Les clés de signature et les identifiants MySQL ne figurent pas dans les sources publiques.
 
 Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/index.html)
+
+Feuille de route des prochaines versions : [ROADMAP.md](ROADMAP.md).
