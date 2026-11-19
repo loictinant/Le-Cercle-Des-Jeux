@@ -1,27 +1,31 @@
-# Le Cercle des jeux — version 1.2.0
+# Le Cercle des jeux — version 1.3.3
 
 Jeu de réflexion en français : sudoku, mots croisés, mots fléchés, mots mêlés et mémory.
 
-![Accueil du jeu avec illustrations 3D, capture sans curseur ni barre des tâches](LeCercleDesJeux-accueil-3d-v1.2.0.png)
+![Capture de Sudoku (version 1.3.1, sans curseur ni barre des tâches)](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/download/v1.3.3-essai/LeCercleDesJeux-1.3.1-jeu.png)
 
-## Télécharger l’essai Windows
+## Télécharger
 
-[Télécharger l’EXE d’essai Windows x64](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.2.0-essai)
+- [Télécharger l’EXE d’essai Windows x64 1.3.3](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.3.3-essai)
+- [Télécharger les sources 1.3.3](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/download/v1.3.3-essai/LeCercleDesJeux-GitHubSource-v1.3.3.zip)
+- [Page Microsoft Store](https://apps.microsoft.com/detail/9PC52PMZT5VX)
 
-La collection de trophées reste locale à la version utilisée. Les succès Xbox/Windows ne sont pas activés.
+## Nouveautés 1.3.3
 
-## Défis France
+- Difficulté Tranquille, Classique ou Expert, avec des grilles adaptées dans les cinq jeux.
+- Sauvegarde automatique de la partie et reprise depuis l’accueil.
+- Réglages d’accessibilité : texte agrandi, contraste renforcé et navigation au clavier.
+- Banque de mots français enrichie et progression de niveau expliquée.
+- 60 trophées internes à l’application, enregistrés localement. Les succès Xbox ou Windows ne sont pas intégrés.
 
-Le même défi quotidien est proposé à tous les joueurs, avec un classement différé par jeu. Le pays reste réglé sur la France : le jeu ne consulte pas la localisation de l’appareil. La participation est facultative et demande un accord explicite.
+## Défis quotidiens
 
-Le pseudo public est choisi par le joueur, doit être unique, et peut être modifié ensuite. Pour activer cette fonction, remplacer le fichier `public_html/lecercle-api/v1/index.php` sur l’hébergement avec celui de l’archive du site 1.2.0. La base et son fichier `config.php` ne changent pas.
+Le mode solo fonctionne hors connexion. La participation aux classements est facultative. Le pays peut être estimé à partir de l’adresse IP et le joueur peut choisir l’affichage mondial. Le jeu n’utilise pas le GPS. Le pseudo est choisi par le joueur ; un compte avec e-mail vérifié peut servir à le récupérer.
 
-## Sources et site
+Pour installer le serveur, suivre `server/mysql-api/README.md`. Les identifiants MySQL restent dans `config.php` sur l’hébergement et ne sont pas inclus dans les sources publiques.
 
-[Télécharger les sources Windows, Android, les deux propositions visuelles et l’API PHP/MySQL](LeCercleDesJeux-GitHubSource-v1.2.0.zip)
+## Sources, confidentialité et site
 
-Le jeu solo continue de fonctionner hors ligne. Les clés de signature et les identifiants MySQL ne figurent pas dans les sources publiques.
+L’archive contient les projets Windows et Android, le serveur PHP/MySQL et les deux présentations visuelles conservées séparément. Les clés de signature ne sont pas incluses.
 
-Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/index.html)
-
-Feuille de route des prochaines versions : [ROADMAP.md](ROADMAP.md).
+La politique de confidentialité est dans `privacy.html`. Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/index.html). Feuille de route : [ROADMAP.md](ROADMAP.md).
