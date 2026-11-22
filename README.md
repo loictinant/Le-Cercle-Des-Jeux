@@ -1,31 +1,22 @@
-# Le Cercle des jeux — version 1.3.3
+# Le Cercle des jeux — version 1.5.0
 
-Jeu de réflexion en français : sudoku, mots croisés, mots fléchés, mots mêlés et mémory.
+Jeu de réflexion en français : sudoku, mots croisés, mots fléchés, mots mêlés et mémory. Les niveaux solo fonctionnent hors ligne ; les comptes et classements en ligne sont facultatifs.
 
-![Capture de Sudoku (version 1.3.1, sans curseur ni barre des tâches)](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/download/v1.3.3-essai/LeCercleDesJeux-1.3.1-jeu.png)
+![Aperçu du menu d’accueil du jeu](LeCercleDesJeux-accueil-3d-v1.2.0.png)
+
+## Version 1.5.0
+
+- Les classements solo sont organisés par jeu et par difficulté, avec une vue par pays ou mondiale.
+- Les trophées peuvent être comparés par total ou par niveau (bronze, argent, or, diamant) ; leur partage public reste facultatif.
+- Les scores et trophées du compte sont conservés dans MySQL. Le paquet source contient la migration et un guide phpMyAdmin.
+- Les mots fléchés utilisent maintenant des définitions dans la grille, séparées des mots croisés.
 
 ## Télécharger
 
-- [Télécharger l’EXE d’essai Windows x64 1.3.3](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.3.3-essai)
-- [Télécharger les sources 1.3.3](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/download/v1.3.3-essai/LeCercleDesJeux-GitHubSource-v1.3.3.zip)
-- [Page Microsoft Store](https://apps.microsoft.com/detail/9PC52PMZT5VX)
+- [EXE d’essai Windows x64 et fichiers nécessaires](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases/tag/v1.5.0-essai)
+- [Sources Windows, Android, API PHP/MySQL et guide de base de données](LeCercleDesJeux-GitHubSource-v1.5.0.zip)
+- [Toutes les versions et captures d’écran](https://github.com/loictinant/Le-Cercle-Des-Jeux/releases)
 
-## Nouveautés 1.3.3
+La version Microsoft Store 1.5.0 a été envoyée en certification. Elle sera publiée automatiquement si elle est approuvée par Microsoft. La version actuellement disponible dans le Store reste la précédente jusqu’à la fin de cette certification.
 
-- Difficulté Tranquille, Classique ou Expert, avec des grilles adaptées dans les cinq jeux.
-- Sauvegarde automatique de la partie et reprise depuis l’accueil.
-- Réglages d’accessibilité : texte agrandi, contraste renforcé et navigation au clavier.
-- Banque de mots français enrichie et progression de niveau expliquée.
-- 60 trophées internes à l’application, enregistrés localement. Les succès Xbox ou Windows ne sont pas intégrés.
-
-## Défis quotidiens
-
-Le mode solo fonctionne hors connexion. La participation aux classements est facultative. Le pays peut être estimé à partir de l’adresse IP et le joueur peut choisir l’affichage mondial. Le jeu n’utilise pas le GPS. Le pseudo est choisi par le joueur ; un compte avec e-mail vérifié peut servir à le récupérer.
-
-Pour installer le serveur, suivre `server/mysql-api/README.md`. Les identifiants MySQL restent dans `config.php` sur l’hébergement et ne sont pas inclus dans les sources publiques.
-
-## Sources, confidentialité et site
-
-L’archive contient les projets Windows et Android, le serveur PHP/MySQL et les deux présentations visuelles conservées séparément. Les clés de signature ne sont pas incluses.
-
-La politique de confidentialité est dans `privacy.html`. Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/index.html). Feuille de route : [ROADMAP.md](ROADMAP.md).
+Pour activer les classements de la version 1.5.0, la base MySQL et l’API PHP doivent aussi être mises à jour. Le détail se trouve dans `server/mysql-api/README.md` et `server/mysql-api/GUIDE-ACCES-BASE-MYSQL.md`. Les identifiants MySQL et les clés de signature ne sont pas inclus dans les sources publiques.

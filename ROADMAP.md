@@ -1,27 +1,20 @@
-# Feuille de route — Le Cercle des jeux
+# Évolutions
 
-Cette liste rassemble les demandes pour les versions futures. Ces fonctions ne sont pas incluses dans la version 1.2.0.
+## Inclus dans la version 1.3.0
 
-## Interface
+- Version et crédit du développeur dans le pied de page.
+- Défis quotidiens avec pays déterminé approximativement par IP et choix classement pays/monde.
+- Réinitialisation de l’affichage du pseudo après suppression du profil.
+- Réglage clair/sombre accessible depuis la barre supérieure.
+- Pourcentage global et progression individuelle des trophées, avec couleurs bronze, argent et or.
+- Comparaison anonyme de la progression par pays ou dans le monde, avec partage facultatif désactivé par défaut.
+- Ajout facultatif d’un e-mail vérifié pour récupérer un compte joueur.
+- Sauvegarde manuelle, exportation et restauration locales.
+- Défis quotidiens consécutifs et trophées associés.
+- Partage du lien du jeu.
 
-- Afficher le numéro de version en bas de l’application.
-- Rendre le choix du thème clair ou foncé facile à trouver dans les réglages.
-- Actualiser immédiatement le nom affiché en haut à droite après la suppression du joueur.
-- Colorer les trophées selon leur niveau : bronze, argent et or.
+## À garder pour une version future
 
-## Défis et trophées
-
-- Déduire le pays du défi à partir de l’adresse IP, expliquer ce choix et proposer une vue mondiale pour consulter tous les joueurs. Ne pas utiliser la position GPS.
-- Afficher le pourcentage de joueurs ayant obtenu chaque trophée.
-- Permettre de comparer les trophées et résultats à l’échelle du pays ou du monde.
-- Développer les défis quotidiens avec un suivi clair des défis du jour.
-
-## Compte et progression
-
-- Proposer un compte joueur facultatif associé à une adresse e-mail vérifiée pour récupérer l’accès.
-- Ajouter l’export manuel d’une sauvegarde et sa restauration, avec confirmation de l’écrasement d’une sauvegarde existante.
-- Garder le jeu solo disponible sans compte et sans connexion.
-
-## Partage
-
-- Ajouter une commande simple pour partager le jeu.
+- Succès Windows/Xbox et trophées Android : intégrations séparées, non incluses dans l’EXE d’essai.
+- Synchronisation chiffrée de la sauvegarde entre appareils.
+- Vérification serveur renforcée des résultats des défis.
